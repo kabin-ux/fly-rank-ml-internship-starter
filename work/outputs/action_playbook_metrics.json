@@ -1,0 +1,34 @@
+{
+  "model": "RandomForestClassifier(n_estimators=100, max_depth=10, random_state=42)",
+  "split": "client-grouped 70/30 (GroupShuffleSplit, random_state=42)",
+  "n_train_clients": 22,
+  "n_test_clients": 10,
+  "n_queue_rows": 10834,
+  "test_auc": 0.6218427134731529,
+  "base_rate_test": 0.5594424958464095,
+  "k_test": 1708,
+  "rf_precision_at_k": 0.6791569086651054,
+  "baseline_precision_at_k": 0.6188524590163934,
+  "min_content_age_days_full_dataset": 90,
+  "has_date_column": false,
+  "ambiguous_probability_rows_0.45_0.55": 1406,
+  "value_unknown_rows": 151,
+  "archetype_counts": {
+    "general_review": 7582,
+    "striking_distance": 3001,
+    "deep_low_value": 169,
+    "thin_but_visible": 59,
+    "page1_going_stale": 23
+  },
+  "priority_quadrant_counts": {
+    "batch_low_touch": 5104,
+    "deprioritize": 4843,
+    "protect_monitor": 574,
+    "refresh_now": 313
+  },
+  "review_batch_counts": {
+    "backlog": 10584,
+    "this_month": 200,
+    "this_week": 50
+  }
+}
